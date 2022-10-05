@@ -15,4 +15,4 @@ ExPresS XR was developed and tested with Unity 2021.3.11f.
 
 ## License
 
-MIT License (although attribution is appreciated:D)
+MIT License
