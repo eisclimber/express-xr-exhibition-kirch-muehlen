@@ -8,10 +8,16 @@ It features an interactive VR experience of one of the oldes evangelic churches 
 The application consits of a partial rebuild of the church's interior as well as 3D-scans some of it's the historic statues augmented with further historic information.
 
 
-# How to use
+## Features
+- Recreation of the altar-/choir-room
+- Scanned version of the lower tower room
+- Displaying the following statues/information: Two knight statues, two reliefs, the main glass window ("Hirtenfenster"), the reformation statue and an audio with further information about the reformation-process in that area.
 
-As of right now there are no built versions to download, so you'll need to download the project files and then run/build it via Unity.
+## How to use
 
+Download and upack the zip-file for your platform from the Release section of the Repository (Either oculus for Quest 1&2 or a win_64 when using SteamVR-based VR-Headsets).
+
+On windows the application then can be started. Oculus requires [Sideloadng](https://mixed.de/oculus-quest-sideloading-und-sidequest-guide/).
 
 ## Contact and Support
 
