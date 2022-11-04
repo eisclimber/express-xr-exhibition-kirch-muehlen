@@ -177,7 +177,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.LucaeisclimberDreiling.ExhibitionRemigiuskirchewithExPresSXR
-    Standalone: com.DefaultCompany.AutoXR
+    Standalone: com.Luca--eisclimber--Dreiling.Exhibition--Remigiuskirche--with-ExPresS-XR
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -271,15 +271,15 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: 
-  AndroidKeyaliasName: 
+  AndroidKeystoreName: C:/Users/Luca/Dropbox/express_kirche_publish_key.keystore
+  AndroidKeyaliasName: key
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
   AndroidIsGame: 1
   AndroidEnableTango: 0
   androidEnableBanner: 1
   androidUseLowAccuracyLocation: 0
-  androidUseCustomKeystore: 0
+  androidUseCustomKeystore: 1
   m_AndroidBanners:
   - width: 320
     height: 180
