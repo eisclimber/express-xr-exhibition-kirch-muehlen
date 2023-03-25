@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.de-panther.webxr": {
-      "version": "0.15.0-preview",
+      "version": "0.16.0-preview",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -10,13 +10,23 @@
       "url": "https://package.openupm.com"
     },
     "com.de-panther.webxr-interactions": {
-      "version": "0.15.0-preview",
+      "version": "0.16.3-preview",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.de-panther.webxr": "0.15.0-preview"
+        "com.de-panther.webxr": "0.16.0-preview"
       },
       "url": "https://package.openupm.com"
+    },
+    "com.unity.animation.rigging": {
+      "version": "1.1.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.burst": "1.4.1",
+        "com.unity.test-framework": "1.1.24"
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.burst": {
       "version": "1.8.2",
@@ -97,15 +107,6 @@
         "com.unity.settings-manager": "1.0.3",
         "com.unity.modules.physics": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.progrids": {
-      "version": "3.0.3-preview.6",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.settings-manager": "1.0.2"
       },
       "url": "https://packages.unity.com"
     },
