@@ -8,10 +8,31 @@ namespace ExPresSXR.Misc
 {
     public class ColorSwitcher : MonoBehaviour
     {
+        /// <summary>
+        /// The material that is replacing the material applied to the GameObject via Editor.
+        /// </summary>
         [Tooltip("The material that is replacing the material applied to the GameObject via Editor.")]
         public Material alternativeMaterial;
 
+        /// <summary>
+        /// The duration the material is switched when calling the '...ForSwitchDuration' functions.
+        /// </summary>
+        [Tooltip("The duration the material is switched when calling the '...ForSwitchDuration' functions.")]
         public float switchDuration = 1.0f;
+        
+        /// <summary>
+        /// When changing to the Original Material, the object's material must be the Alternative Material.
+        /// </summary>
+        [Tooltip("When changing to the Original Material, the object's material must be the Alternative Material.")]
+        public bool requireOriginalMaterialMatch;
+        
+        /// <summary>
+        /// When changing to the Alternative Material, the object's material must be the Original Material.
+        /// </summary>
+        [Tooltip("When changing to the Alternative Material, the object's material must be the Original Material.")]
+        public bool requireAlternativeMaterialMatch;
+
+
 
         private Material _originalMaterial;
         private MeshRenderer _meshRenderer;
@@ -112,7 +133,8 @@ namespace ExPresSXR.Misc
         // Private methods for setting materials to allow proper coroutine handling
         private void SetAlternativeMaterialActive()
         {
-            if (_meshRenderer != null && alternativeMaterial != null)
+            if (_meshRenderer != null && alternativeMaterial != null
+                && (!requireAlternativeMaterialMatch || _meshRenderer.material == _originalMaterial))
             {
                 _meshRenderer.material = alternativeMaterial;
             }
@@ -120,7 +142,8 @@ namespace ExPresSXR.Misc
 
         private void SetOriginalMaterialActive()
         {
-            if (_meshRenderer != null)
+            if (_meshRenderer != null
+                && (!requireOriginalMaterialMatch || _meshRenderer.material == alternativeMaterial))
             {
                 _meshRenderer.material = _originalMaterial;
             }

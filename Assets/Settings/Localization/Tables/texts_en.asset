@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: texts_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: ab6797b37dcb17f4d8998d88e3db95c4, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 404236918784
+    m_Localized: "Remigiuschurch\n(M\xFChlen a. N.)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 523413872640
+    m_Localized: Remigiuschurch VR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 663797227520
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 721271775232
+    m_Localized: Controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 754943647744
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 783284559872
+    m_Localized: Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 819271688192
+    m_Localized: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1210386341888
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1248202186752
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167374383079424
+    m_Localized: "<b>Created By:</b>\nLuca Dreiling\n\n<i>Special thanks</i> to the
+      Protestant parish of M\xFChlen for their support during the implementation."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167409074167808
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2666984901042176
+    m_Localized: Controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2667273188139008
+    m_Localized: "Welcome to the Remigiuschurch\n<size=80%>(M\xFChlen a.N.)</size>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2699780256292864
+    m_Localized: To the Luther Pillar ->
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2667406634115072
+    m_Localized: 'This digital replica of parts of Remigius Church invites you to
+      explore it in VR.
+
+
+      Figures and other important elements were digitally
+      processed using 3D scans and integrated into this application together with
+      the information panels.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2667097757179904
+    m_Localized: "You can move freely on the floor by teleporting. \nTo do this,
+      press the joystick forward, aim and let go.\n\nThe red and white buttons provide
+      additional information and audio about the exhibits. Press the red buttons
+      physically. \n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2643956888625152
+    m_Localized: Grave Monument - Susanne Megentzer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644067496615936
+    m_Localized: "Grave Monument - Georg Christoph von Sch\xF6nfeld"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644083011346432
+    m_Localized: "Inscription 1 Timothy 1:15:\n\n\u201CThis is certainly true and
+      a precious word, that Christ Jesus came into the world to save sinners, of
+      whom I am the first.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644038526558208
+    m_Localized: "Inscription Psalm 73,25f:\n\n\u201CLord, when I have only you,
+      I ask nothing for heaven and earth; you are God's comfort and my portion at
+      all times.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644484859224064
+    m_Localized: "The Reformation memorial in M\xFChlen is the oldest in the former
+      Kingdom of W\xFCrttemberg and in the whole of southern Germany, with the exception
+      of the memorial stone to Melanchthon in his native town of Bretten (also from
+      1817)."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644449979392000
+    m_Localized: Luther Pillar from 1817
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644319444262912
+    m_Localized: "Henry of Neuneck\nzu Glatt im Gie\xDFen and to Egelstal \u20201590\nBrother
+      of Anna von Neuneck\nand brother-in-law of Hans Konrad von First.\nBiblical
+      inscription: Job 19 verse 25ff."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644303442993152
+    m_Localized: Grave Monument - Heinrich von Neuneck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644250632511488
+    m_Localized: Grave Monument - Heinrich von Anweil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644276393926656
+    m_Localized: "Henry of Anweil \u20201578\nNephew of Anna von Neuneck\n\nThe top
+      of the funerary monument hangs above the entrance to the sacristy.\n(Not included
+      in this exhibition)."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644214796378112
+    m_Localized: "The central window of the choir depicts Jesus as a shepherd. \nAt
+      his feet is the Christ monogram, which consists of the superimposed letters
+      Chi (X) and Rho (P). To the side are the letters Alpha and Omega, which stand
+      for Christ as \u201Cfirst and last\u201D.\nIt is aligned with the altar and
+      forms an impressive overall picture of the church interior."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644149704974336
+    m_Localized: Shepherd's window
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2707099367104512
+    m_Localized: "Reformation in M\xFChlen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2874820813774848
+    m_Localized: Play Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2919729964900352
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

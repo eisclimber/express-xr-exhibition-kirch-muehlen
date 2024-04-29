@@ -6,10 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main Menu Scene.unity
+    guid: 72e36ce88349e84468c2dd43192706c3
+  - enabled: 1
     path: Assets/Scenes/ChurchExhibition.unity
     guid: 09f7ce6bdff404b4ba04beefe5de8a95
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4340d25f9eee7054b9b5069a374b2eba, type: 2}
     WebXR.Settings: {fileID: 11400000, guid: 3137875602c21bb41ab6a7aee5c329ee, type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: dff577baf92ee4f4dbbef069c2b0803a, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 68eea43f94c1cbc41b0af810e126fa93, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ee9d52ffb1100eb43a05405da92fcb79, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 2024beae2f4a18b4291fcfb9f2bfa5c1, type: 2}

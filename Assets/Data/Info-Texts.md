@@ -43,8 +43,15 @@ _Standort des Denkmals_
 
 ## Reformation in Mühlen
 
-Hans Konrad von First kam 1540 durch Erbschaft in den Besitz der Herrschaft Egelstal-Mühlen. Er war Parteiträger von Herzog Ulrich, der nach der Rückeroberung Württembergs 1534 die Reformation eingeführt hatte. Im Schmalkaldischen Krieg kämpfte Württemberg auf Seite des evangelischen Bundes gegen die katholischen Truppen. Hans Konrad von First schloss sich mit drei Pferden dem württembergischen Heer an. Nach der Niederlage der Evangelischen 1547 wurde Mühlen-Egelstal von kaiserlichen Truppen besetzt. Nach dem Augsburger Religionsfrieden 1555 erhielt Hans Konrad von First seine Besitztümer zurück und baute 1557 Egelstal zu einer modernen Wehranlage aus.
-Da Hans Konrad von First 1561 verstarb, ist es nicht sicher, ob er oder seine Frau Anna von Neuneck die Reformation eingeführt haben. Sicher ist, dass Daniel Fink seit 1561 als erster evangelischer Pfarrer in Mühlen tätig war und 1567 als Prediger eingesetzt wurde. Über Anna von Neuneck heißt es in der Leichenpredigt: "<Sie hat die Predigt des Evangeliums bei ihren Untertanen aufgerichtet und den Armen viele und reiche Gaben gegeben.>" Die Grabdenkmäler von Hans Konrad von First und Anna von Neuneck befinden sich heute in der Stiftskirche Tübingen.
+Hans Konrad von First kam 1540 durch Erbschaft in den Besitz der Herrschaft Egelstal-Mühlen. 
+Er war Parteiträger von Herzog Ulrich, der nach der Rückeroberung Württembergs 1534 die Reformation eingeführt hatte. 
+Im Schmalkaldischen Krieg kämpfte Württemberg auf Seite des evangelischen Bundes gegen die katholischen Truppen. 
+Hans Konrad von First schloss sich mit drei Pferden dem württembergischen Heer an. Nach der Niederlage der Evangelischen 1547 wurde Mühlen-Egelstal von kaiserlichen Truppen besetzt. 
+Nach dem Augsburger Religionsfrieden 1555 erhielt Hans Konrad von First seine Besitztümer zurück und baute 1557 Egelstal zu einer modernen Wehranlage aus.
+Da Hans Konrad von First 1561 verstarb, ist es nicht sicher, ob er oder seine Frau Anna von Neuneck die Reformation eingeführt haben.
+Sicher ist, dass Daniel Fink seit 1561 als erster evangelischer Pfarrer in Mühlen tätig war und 1567 als Prediger eingesetzt wurde.
+Über Anna von Neuneck heißt es in der Leichenpredigt: "<Sie hat die Predigt des Evangeliums bei ihren Untertanen aufgerichtet und den Armen viele und reiche Gaben gegeben.>"
+ Die Grabdenkmäler von Hans Konrad von First und Anna von Neuneck befinden sich heute in der Stiftskirche Tübingen.
 
 ## Grabdenkmal links
 
@@ -64,3 +71,20 @@ Der Aufsatz des Grabdenkmals hängt über dem Eingang zur Sakristei.
 
 Das mittelere Fenster des Chorraumes zeigt Jesus als Hirte. Zu seinen Füßen ist das Christusmonogramm abgebildet, das aus den übereinangergelegten Buchstaben Chi (X) und Rho(P) besteht. Seitlich stehen die Buchstaben Alpha und Omega, die für Christus als "Ersten und Letzten" stehen.
 Es steht mit dem Altar in einer Flucht und bildet aus dem Kirchenraum ein eindrucksvolles Gesamtbild.
+
+
+
+
+
+## Reformation in Mühlen (ENGLISH)
+
+Hans Konrad von First came into possession of Egelstal-Mühlen by inheritance in 1540.
+He was a supporter of Duke Ulrich, who had introduced the Reformation after the reconquest of Württemberg in 1534.
+In the Schmalkaldic War, Württemberg fought on the side of the Protestant League against the Catholic troops.
+Hans Konrad von First joined the Württemberg army with three horses.
+After the defeat of the Protestants in 1547, Egelstal-Mühlen was occupied by imperial troops.
+After the Religious Peace of Augsburg in 1555, Hans Konrad von First regained his possessions and in 1557 expanded Egelstal into a modern fortification.
+As Hans Konrad von First died in 1561, it is not certain whether he or his wife Anna von Neuneck introduced the Reformation.
+What is certain is that Daniel Fink was the first Protestant pastor in Mühlen from 1561 and was appointed preacher in 1567.
+Anna von Neuneck's funeral sermon states: “<She raised up the preaching of the gospel among her subjects and gave many and rich gifts to the poor.>”
+The grave monuments of Hans Konrad von First and Anna von Neuneck are now in the collegiate church in Tübingen.

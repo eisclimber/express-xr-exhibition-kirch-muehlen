@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: texts_de-DE
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: de-DE
+  m_SharedData: {fileID: 11400000, guid: ab6797b37dcb17f4d8998d88e3db95c4, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 404236918784
+    m_Localized: "Remigiuskirche\n(M\xFChlen a. N.)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 523413872640
+    m_Localized: Remigiuskirche VR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 663797227520
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 721271775232
+    m_Localized: Steuerung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 754943647744
+    m_Localized: Sprache
+    m_Metadata:
+      m_Items: []
+  - m_Id: 819271688192
+    m_Localized: Beenden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 783284559872
+    m_Localized: Mitwirkende
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1210386341888
+    m_Localized: Ja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1248202186752
+    m_Localized: Nein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167374383079424
+    m_Localized: "<b>Erstellt Durch:</b>\nLuca Dreiling\n\n<i>Besonderen Dank</i>
+      an die evangelische Kirchengemeinde M\xFChlen f\xFCr die tatkr\xE4ftige Unterst\xFCtzung
+      bei der Umsetzung. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167409074167808
+    m_Localized: "Zur\xFCck"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2666984901042176
+    m_Localized: Steuerung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2667273188139008
+    m_Localized: "Willkommen in der Remigiuskirche\n<size=80%>(M\xFChlen a.N.)</size>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2699780256292864
+    m_Localized: "Zur Luthers\xE4ule ->"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2667406634115072
+    m_Localized: "Dieser digitale Nachbau von Teilen der Remigius Kirche l\xE4d Sie
+      ein, diese in der VR zuerkunden.\n \nDazu wurden Figuren und andere wichtige
+      Elemente wurden mittels 3D-Scans digital aufgearbeitet und zusammen mit den
+      Info-Tafeln in diese Anwendung integriert."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2667097757179904
+    m_Localized: "Sie k\xF6nnen sich auf dem Boden frei bewegen, indem Sie sich teleportieren.
+      \nDazu dr\xFCcken Sie den Joystick nach vorne, zielen und lassen los.\n\n\xDCber
+      roten und wei\xDFen Kn\xF6pfe geben zus\xE4tzlich Informationen & Audios zu
+      den Exponaten. Dr\xFCcken Sie die roten Kn\xF6pfe physisch. \n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2643956888625152
+    m_Localized: Grabdenkmal - Susanne Megentzer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644067496615936
+    m_Localized: "Grabdenkmal - Georg Christoph von Sch\xF6nfeld"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644083011346432
+    m_Localized: "Inschrift 1. Timotheus 1,15:\r\n\n\"Das is je gewislich wahr und
+      ein theuer wertes Wort das Christus Jesus kommen ist in die Welt die Sinder[S\xFCnder]
+      selig zu machen under welchen ich der firnemste [erste] bin.\""
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644038526558208
+    m_Localized: 'Inschrift Psalm 73,25f:
+
+
+      "Herr, wan ich nur dich habe, so
+      frag ich nichts nach Himmel u. Erden / so bist du Got alezeit meines Hertzens
+      Trost und mein Theil."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644484859224064
+    m_Localized: "Das Reformationsdenkmal in M\xFChlen ist das \xE4lteste im ehemaligen
+      K\xF6nigreich W\xFCrttemberg und im gesamten s\xFCddeutschen Raum, au\xDFer
+      dem Gedenkstein f\xFCr Melanchthon in seiner Geburtsstadt Bretten (ebenfalls
+      von 1817)."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644449979392000
+    m_Localized: "Luthers\xE4ule von 1817"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644319444262912
+    m_Localized: "Heinrich von Neneck\r\nzu Glatt im Gie\xDFen und zu Egelstal \u20201590\r\nBruder
+      von Anna von Neuneck\r\nund Schwager des Hans Konrad von First.\r\nBiblische
+      Inschrift: Hiob 19 Vers 25ff."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644303442993152
+    m_Localized: Grabdenkmal - Heinrich von Neuneck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644250632511488
+    m_Localized: Grabdenkmal - Heinrich von Anweil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644276393926656
+    m_Localized: "Heinrich von Anweil \u20201578\r\nNeffe der Anna von Neuneck\n\nDer
+      Aufsatz des Grabdenkmals h\xE4ngt \xFCber dem Eingang zur Sakristei.\n(In dieser
+      Ausstellung nicht enthalten)."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644149704974336
+    m_Localized: Hirtenfenster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644214796378112
+    m_Localized: "Das mittelere Fenster des Chorraumes zeigt Jesus als Hirten. \nZu
+      seinen F\xFC\xDFen ist das Christusmonogramm abgebildet, das aus den \xFCbereinangergelegten
+      Buchstaben Chi (X) und Rho (P) besteht. Seitlich stehen die Buchstaben Alpha
+      und Omega, die f\xFCr Christus als \"Ersten und Letzten\" stehen.\r\nEs steht
+      mit dem Altar in einer Flucht und bildet aus dem Kirchenraum ein eindrucksvolles
+      Gesamtbild."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2707099367104512
+    m_Localized: "Reformation in M\xFChlen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2874820813774848
+    m_Localized: Audio abspielen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2919729964900352
+    m_Localized: Deutsch
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: texts Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: texts
+  m_TableCollectionNameGuidString: ab6797b37dcb17f4d8998d88e3db95c4
+  m_Entries:
+  - m_Id: 404236918784
+    m_Key: menu_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 523413872640
+    m_Key: app_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 663797227520
+    m_Key: menu_start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 721271775232
+    m_Key: menu_controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 754943647744
+    m_Key: menu_language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 783284559872
+    m_Key: menu_credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 819271688192
+    m_Key: menu_exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1210386341888
+    m_Key: menu_yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1248202186752
+    m_Key: menu_no
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167374383079424
+    m_Key: menu_credits_text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167409074167808
+    m_Key: menu_back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2643956888625152
+    m_Key: exhibit_relief1_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644038526558208
+    m_Key: exhibit_relief1_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644067496615936
+    m_Key: exhibit_relief2_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644083011346432
+    m_Key: exhibit_relief2_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644149704974336
+    m_Key: exhibit_shepherd_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644214796378112
+    m_Key: exhibit_shepherd_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644250632511488
+    m_Key: exhibit_knight1_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644276393926656
+    m_Key: exhibit_knight1_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644303442993152
+    m_Key: exhibit_knight2_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644319444262912
+    m_Key: exhibit_knight2_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644449979392000
+    m_Key: exhibit_pillar_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644484859224064
+    m_Key: exhibit_pillar_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2666984901042176
+    m_Key: start_controls_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2667097757179904
+    m_Key: start_controls_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2667273188139008
+    m_Key: start_intro_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2667406634115072
+    m_Key: start_intro_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2699780256292864
+    m_Key: tower_hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2707099367104512
+    m_Key: exhibit_reformation_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2874820813774848
+    m_Key: play_audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2919729964900352
+    m_Key: menu_language_names
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 314784065848344628
+  references:
+    version: 2
+    RefIds:
+    - rid: 314784065848344628
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1713691401602

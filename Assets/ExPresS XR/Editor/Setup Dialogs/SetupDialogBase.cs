@@ -15,7 +15,7 @@ namespace ExPresSXR.Editor.SetupDialogs
 
         public static Vector2 defaultWindowSize
         {
-            get => new Vector2(DEFAULT_WINDOW_WIDTH, DEFAULT_WINDOW_HEIGHT);
+            get => new(DEFAULT_WINDOW_WIDTH, DEFAULT_WINDOW_HEIGHT);
         }
 
         protected VisualElement contentContainer;
@@ -110,7 +110,7 @@ namespace ExPresSXR.Editor.SetupDialogs
                     stepButton.clickable.clicked += () => { currentStep = j; };
 
                     // Set the button's toggle
-                    stepButton.style.backgroundColor = (i == currentStep ? Color.gray : Color.black);
+                    stepButton.style.backgroundColor = i == currentStep ? Color.gray : Color.black;
                 }
             }
         }

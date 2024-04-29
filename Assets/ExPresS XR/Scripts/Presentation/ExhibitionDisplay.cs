@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine.Video;
 using ExPresSXR.Interaction;
 using ExPresSXR.Misc;
-
+using UnityEngine.XR.Interaction.Toolkit;
 
 namespace ExPresSXR.Presentation
 {
@@ -25,10 +25,17 @@ namespace ExPresSXR.Presentation
                 if (_socket != null)
                 {
                     _socket.putBackPrefab = _displayedPrefab;
+
+                    if (_displayedPrefab != null && _socket.putBackPrefab == null)
+                    {
+                        Debug.LogError($"Could not set { _displayedPrefab }. You'll probably want to either add "
+                            + "an Interactable-Component to the prefab or set `_allowNonInteractables` to true.", this);
+                        _displayedPrefab = null;
+                    }
                 }
                 else
                 {
-                    Debug.LogError("Can't attach Prefab. PutBackSocketReference was not set.");
+                    Debug.LogError("Can't attach Prefab. PutBackSocketReference was not set.", this);
                 }
             }
         }
@@ -42,12 +49,10 @@ namespace ExPresSXR.Presentation
             {
                 _spinObject = value;
 
-                ObjectSpinner spinner = _socket.GetComponent<ObjectSpinner>();
-
-                if (spinner == null)
+                if (!_socket.TryGetComponent(out ObjectSpinner spinner))
                 {
                     spinner = _socket.gameObject.AddComponent<ObjectSpinner>();
-                    spinner.rotation = Vector3.up;
+                    spinner.rotationAxis = Vector3.up;
                     spinner.speed = 30;
                 }
 
@@ -73,7 +78,7 @@ namespace ExPresSXR.Presentation
         }
 
         [SerializeField]
-        private float _putBackTime;
+        private float _putBackTime = 30.0f;
         public float putBackTime
         {
             get => _putBackTime;
@@ -134,6 +139,7 @@ namespace ExPresSXR.Presentation
                 if (_infoImageGo != null)
                 {
                     _infoImageGo.sprite = _infoImage;
+                    _infoImageGo.preserveAspect = true;
                 }
             }
         }
@@ -229,7 +235,19 @@ namespace ExPresSXR.Presentation
             get => _socket;
             set
             {
+                // Free control on current socket
+                if (_socket != null)
+                {
+                    _socket.externallyControlled = false;
+                }
+
                 _socket = value;
+
+                // Free control on current socket
+                if (_socket != null)
+                {
+                    _socket.externallyControlled = true;
+                }
 
                 displayedPrefab = _displayedPrefab;
                 putBackTime = _putBackTime;
@@ -380,10 +398,10 @@ namespace ExPresSXR.Presentation
 
         public bool infoActive
         {
-            get => (showInfoCoroutine != null
+            get => showInfoCoroutine != null
                     || (_infoCanvas != null && _infoCanvas.gameObject.activeSelf)
                     || (_infoAudioSource != null && _infoAudioSource.isPlaying)
-                    || (_infoVideoPlayer != null && _infoVideoPlayer.isPlaying));
+                    || (_infoVideoPlayer != null && _infoVideoPlayer.isPlaying);
         }
 
         private Coroutine showInfoCoroutine;
@@ -405,7 +423,7 @@ namespace ExPresSXR.Presentation
                 _worldShowInfoButton.OnToggleReleased.AddListener(HideInfo);
             }
 
-            displayedPrefab = _displayedPrefab;
+            // displayedPrefab = _displayedPrefab;
             putBackTime = _putBackTime;
             spinObject = _spinObject;
             infoText = _infoText;
@@ -415,6 +433,23 @@ namespace ExPresSXR.Presentation
 
             GenerateRenderTexture();
         }
+
+        private void OnEnable() {
+            if (_socket != null)
+            {
+                _socket.selectEntered.AddListener(UnpauseSpinnerOnSelectEnter);
+                _socket.selectExited.AddListener(PauseSpinnerOnSelectExit);
+            }
+        }
+
+        private void OnDisable() {
+            if (_socket != null)
+            {
+                _socket.selectEntered.RemoveListener(UnpauseSpinnerOnSelectEnter);
+                _socket.selectExited.RemoveListener(PauseSpinnerOnSelectExit);
+            }
+        }
+
 
         private void DisplayInfoContents(bool display)
         {
@@ -478,6 +513,12 @@ namespace ExPresSXR.Presentation
         public void HideInfo()
         {
             DisplayInfoContents(false);
+            
+            if (showInfoCoroutine != null)
+            {
+                StopCoroutine(showInfoCoroutine);
+                showInfoCoroutine = null;
+            }
         }
 
         private void OnUiShowInfoButtonPressed()
@@ -554,7 +595,7 @@ namespace ExPresSXR.Presentation
             float videoDuration = 0.0f;
             if (_infoVideoClip)
             {
-                videoDuration = (float)(_infoVideoClip.length) + AFTER_CLIP_TIMEOUT;
+                videoDuration = (float)_infoVideoClip.length + AFTER_CLIP_TIMEOUT;
             }
 
             return Mathf.Max(_showInfoDuration, audioDuration, videoDuration);
@@ -565,18 +606,37 @@ namespace ExPresSXR.Presentation
         {
             if (_infoVideoPlayer != null && _infoVideoDisplayGo != null)
             {
-                RenderTexture renderTexture = new RenderTexture(1080, 720, 16, RenderTextureFormat.ARGB32);
+                RenderTexture renderTexture = new(1080, 720, 16, RenderTextureFormat.ARGB32);
 
                 _infoVideoPlayer.targetTexture = renderTexture;
                 _infoVideoDisplayGo.texture = renderTexture;
             }
         }
 
+
+        public void SetObjectSpinnerPaused(bool paused)
+        {
+            if (_socket.TryGetComponent(out ObjectSpinner spinner))
+            {
+                spinner.paused = paused;
+            }
+        }
+
+        private void UnpauseSpinnerOnSelectEnter(SelectEnterEventArgs args) => SetObjectSpinnerPaused(false);
+
+        private void PauseSpinnerOnSelectExit(SelectExitEventArgs args) => SetObjectSpinnerPaused(true);
+
         private void OnValidate()
         {
             labelText = _labelText;
             infoText = _infoText;
             allowNonInteractables = _allowNonInteractables;
+            putBackTime = _putBackTime;
+
+            if (_socket != null)
+            {
+                _socket.externallyControlled = true;
+            }
         }
     }
 }

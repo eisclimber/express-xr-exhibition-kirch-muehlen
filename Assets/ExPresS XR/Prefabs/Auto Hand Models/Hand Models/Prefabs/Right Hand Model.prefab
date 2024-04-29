@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9123026379593313614}
   - component: {fileID: 4603483500714563948}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: index2_collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -40,8 +40,17 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 146014998160171809}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
+  serializedVersion: 2
   m_Radius: 0.01
   m_Height: 0.04
   m_Direction: 1
@@ -56,7 +65,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6387040444042575081}
   - component: {fileID: 8666795556382131937}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: middle1_collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -86,8 +95,17 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 619867319454667729}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
+  serializedVersion: 2
   m_Radius: 0.01
   m_Height: 0.05
   m_Direction: 1
@@ -102,7 +120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7928049405189562849}
   - component: {fileID: 4027065744548557639}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: middle2_collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -132,8 +150,17 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 944232274834350174}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
+  serializedVersion: 2
   m_Radius: 0.01
   m_Height: 0.04
   m_Direction: 1
@@ -148,7 +175,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5629222664436081500}
   - component: {fileID: 6566838045218499414}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: pinky1_collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -178,8 +205,17 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 967636931199486809}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
+  serializedVersion: 2
   m_Radius: 0.009
   m_Height: 0.03
   m_Direction: 1
@@ -194,7 +230,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5228923573200778845}
   - component: {fileID: 311335265302114451}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: pinky3_collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -224,8 +260,17 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 974033732203685816}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
+  serializedVersion: 2
   m_Radius: 0.007
   m_Height: 0.025
   m_Direction: 1
@@ -240,7 +285,7 @@ GameObject:
   m_Component:
   - component: {fileID: 646840840750382787}
   - component: {fileID: 6312552866989595939}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: palm_collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -256,7 +301,7 @@ Transform:
   m_GameObject: {fileID: 1225441305999971423}
   m_LocalRotation: {x: -0.9998079, y: 0.013880935, z: -0.013119933, w: 0.0043918556}
   m_LocalPosition: {x: -0.052329253, y: -0.0031344611, z: 0.0020445623}
-  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5686134208185136550}
@@ -270,9 +315,17 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1225441305999971423}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Size: {x: 0.1, y: 0.07, z: 0.04}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2832433394152541584
@@ -285,7 +338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7890221662978964470}
   - component: {fileID: 969862444096925426}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: index1_collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -315,8 +368,17 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2832433394152541584}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
+  serializedVersion: 2
   m_Radius: 0.01
   m_Height: 0.05
   m_Direction: 1
@@ -331,7 +393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5341367260400380709}
   - component: {fileID: 3422888310685882608}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ring3_collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -361,8 +423,17 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2942973084443137276}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
+  serializedVersion: 2
   m_Radius: 0.008
   m_Height: 0.03
   m_Direction: 1
@@ -377,7 +448,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1206182248470053157}
   - component: {fileID: 8533820874141386633}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ring2_collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -407,8 +478,17 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3338240078187214725}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
+  serializedVersion: 2
   m_Radius: 0.009
   m_Height: 0.04
   m_Direction: 1
@@ -423,7 +503,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6335773211917083007}
   - component: {fileID: 1459905318211476599}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: thumb3_collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -453,8 +533,17 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4676338747331060650}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
+  serializedVersion: 2
   m_Radius: 0.008
   m_Height: 0.045
   m_Direction: 1
@@ -469,7 +558,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7062655536704365050}
   - component: {fileID: 2701537795735087778}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: pinky2_collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -499,8 +588,17 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4989032506074160892}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
+  serializedVersion: 2
   m_Radius: 0.008
   m_Height: 0.035
   m_Direction: 1
@@ -1543,7 +1641,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4228121344128083537}
   - component: {fileID: 7031183482249583255}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: index3_collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1573,8 +1671,17 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5987056944658446912}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
+  serializedVersion: 2
   m_Radius: 0.007
   m_Height: 0.03
   m_Direction: 1
@@ -1589,7 +1696,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2925038605979738908}
   - component: {fileID: 495664742486544565}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: thumb2_collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1619,8 +1726,17 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6332286523913078161}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
+  serializedVersion: 2
   m_Radius: 0.012
   m_Height: 0.05
   m_Direction: 1
@@ -1666,7 +1782,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7272410535281334715}
   - component: {fileID: 355766042980792986}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: thumb1_collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1696,8 +1812,17 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6791523317095439678}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
+  serializedVersion: 2
   m_Radius: 0.02
   m_Height: 0.07
   m_Direction: 1
@@ -1712,7 +1837,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4854366729648861620}
   - component: {fileID: 3469593962947893327}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: middle3_collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1742,8 +1867,17 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6939003838493136108}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
+  serializedVersion: 2
   m_Radius: 0.008
   m_Height: 0.03
   m_Direction: 1
@@ -1758,7 +1892,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2707000473005729887}
   - component: {fileID: 866063694548295456}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ring1_collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1788,8 +1922,17 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8669009819840671050}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
+  serializedVersion: 2
   m_Radius: 0.009
   m_Height: 0.04
   m_Direction: 1

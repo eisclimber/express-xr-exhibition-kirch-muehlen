@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEditor;
 using ExPresSXR.Presentation;
 
-namespace ExPresSXR.Editor
+namespace ExPresSXR.Editor.Editors
 {
     [CustomEditor(typeof(Mirror))]
     [CanEditMultipleObjects]
@@ -10,9 +10,8 @@ namespace ExPresSXR.Editor
     {
         protected Mirror mirror;
 
-        [SerializeField]
-        protected bool _showEvents = false;
-        protected bool _showObjectRefs = false;
+        protected static bool _showEvents = false;
+        protected static bool _showObjectRefs = false;
 
         protected virtual void OnEnable()
         {
